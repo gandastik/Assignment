@@ -1,0 +1,2 @@
+
+    int usedIndex[20];
