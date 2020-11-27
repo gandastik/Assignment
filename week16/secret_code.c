@@ -22,6 +22,10 @@ int main()
     char *ptr = str;
     for(int i = 0; i<stringLength(ptr) ;i++)
     {
+        if(str[i] == ' ')
+        {
+            printf("%c", str[i]);
+        }
         if(str[i] >= 48 && str[i] <= 57)
         {
             printf("%c", str[i]);
